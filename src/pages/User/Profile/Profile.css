@@ -1,0 +1,11 @@
+.profile-card {
+    border-radius: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.user-admin {
+    display: flex;
+    justify-content: center;
+}

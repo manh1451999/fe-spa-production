@@ -1,0 +1,10 @@
+.change-pass {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.user-changepass {
+    display: flex;
+    justify-content: center;
+}

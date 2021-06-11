@@ -1,0 +1,142 @@
+.card-1
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+}
+.card-1-text{
+    height: auto;
+    width: 38%;
+    margin-top: 30px;
+    left: 10%;
+    border-radius: 4px;
+    background: #ffffff;
+    position: absolute;
+    box-shadow: 0 22px 40px rgba(0, 0, 0, 0.15);
+}
+.card-1-text-content{
+    padding: 50px 50px 70px 50px;
+}
+.card-1-img
+{
+    width: 50%;
+    margin-left: 40%;
+}
+.card-1-img img 
+{
+    width: 100%;
+}
+.card-2
+{
+    display: flex;
+}
+.card-2-text{
+    height: auto;
+    width: 38%;
+    margin-top: 30px;
+    right: 10%;
+    border-radius: 4px;
+    background: #ffffff;
+    position: absolute;
+    box-shadow: 0 22px 40px rgba(0, 0, 0, 0.15);
+}
+.card-2-text-content{
+    padding: 50px 50px 70px 50px;
+}
+.card-2-img
+{
+    width: 50%;
+    margin-left: 10%;
+}
+.card-2-img img 
+{
+    width: 100%;
+}
+
+.membership-cards button{
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 40px;
+    width: 200px;
+    border: none;
+    background-color: #EFA697;
+    color: white;
+    font-weight: 700;
+}
+.membership-cards button:hover
+{
+    transition: 0.5s;
+    background-color: #333333;
+}
+@media only screen and (min-width: 670px) and (max-width: 1000px){
+    .card-1
+    {
+        margin-bottom: 150px;
+    }
+    .card-1-text{
+        left: 3%;
+    }
+    .card-1-text-content{
+        padding: 20px 20px 40px 20px;
+    }
+    .card-1-img
+    {
+        width: 62%;
+        margin-left: 35%;
+    }
+    .card-2
+    {
+        margin-bottom: 150px;
+    }
+    .card-2-text{
+        right: 3%;
+    }
+    .card-2-text-content{
+        padding: 20px 20px 40px 20px;
+    }
+    .card-2-img
+    {
+        width: 62%;
+        margin-left: 3%;
+    }
+}
+@media only screen and (max-width: 670px){
+    .card-1
+    {
+        flex-direction: column;
+    }
+    .card-1-text{
+        width: 100%;
+        left: 0;
+        position: relative;
+    }
+    .card-1-img
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+    .card-1-img img 
+    {
+        border-radius: 4px;
+        width: 100%;
+    }
+    .card-2
+    {
+        flex-direction: column;
+    }
+    .card-2-text{
+        width: 100%;
+        right: 0;
+        position: relative;
+    }
+    .card-2-img
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+    .card-2-img img 
+    {
+        width: 100%;
+        border-radius: 4px;
+    }
+}

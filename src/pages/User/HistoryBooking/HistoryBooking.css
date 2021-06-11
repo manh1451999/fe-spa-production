@@ -1,0 +1,20 @@
+.bill{
+    font-weight: 600;
+    color: rgb(62, 85, 105);
+}
+.listBill{
+    width: 100%;
+    margin-top: 30px;
+}
+.listBill th{
+    border-top: 1px solid #dee2e6;
+    border-bottom:2px solid #dee2e6;
+    padding-left: 10px;
+    height: 50px;
+}
+.listBill td{
+    border-bottom:1px solid #dee2e6;
+    padding-left: 10px;
+    height: auto;
+    color: #3e5569;
+}

@@ -1,0 +1,109 @@
+.cart-title {
+    text-align: center;
+}
+.cart tr {
+    border-bottom: 1px solid rgb(231, 230, 230);
+}
+.cart tr:first-child {
+    text-transform: uppercase;
+    color: rgb(151, 150, 150);
+}
+.cart .cart-label:not(:first-child) {
+    text-align: center;
+}
+.cart tr:first-child {
+    text-align: center;
+}
+
+.cart tr td {
+    padding-right: 20px;
+}
+
+.cart-item td {
+    margin: 20px 20px 20px 0px;
+}
+.cart-label,
+.cart-item {
+    text-align: center;
+}
+.cart-item td:first-child {
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+}
+.cart .cart-item td:first-child div:first-child {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(239, 239, 245);
+    margin-right: 20px;
+}
+.cart .cart-item div:first-child img {
+    height: 100px;
+    width: 100px;
+}
+.cart .cart-item-name {
+    display: flex;
+    flex-direction: column;
+}
+.cart .cart-item-name span {
+    display: inline;
+}
+.cart .order-detail div {
+    display: flex;
+    justify-content: space-between;
+}
+.order-total {
+    display: flex;
+    justify-content: space-between;
+}
+.cart-add-minus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.cart input[type="number"] {
+    -moz-appearance: textfield;
+    text-align: center;
+}
+
+.cart .two-button {
+    display: flex;
+    justify-content: flex-end;
+}
+.cart .two-button button {
+    margin-left: 10px;
+}
+
+.overlay_background_cart {
+    background-image: url("https://c.wallhere.com/photos/4d/9c/digital_digital_art_artwork_illustration_drawing_digital_painting_environment_nature-1658939.jpg!d");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 19em;
+}
+.overlay_background1_cart h2 {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 40px;
+}
+.overlay_background1_cart {
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+    width: 100%;
+    height: 19em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

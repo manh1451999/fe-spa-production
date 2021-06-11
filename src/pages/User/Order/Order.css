@@ -1,0 +1,9 @@
+.select-menu-order span {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.select-menu-order .active span {
+    color: #ee4d2d;
+    border-bottom: #ee4d2d solid 2px;
+}

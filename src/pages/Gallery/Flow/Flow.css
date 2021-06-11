@@ -1,0 +1,188 @@
+
+.containerCard{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    cursor: pointer;
+    height: 60vh;
+    width: auto;
+    display: none;
+}
+.cards.left-active{
+    display: block;
+}
+.cards.right-active{
+    display: block;
+}
+.cards.active{
+    display: block;
+    height: 80vh;
+    width: auto;
+    transition: all 5s;
+    transform: rotateY(360deg) ;
+}
+.cards.active .cardTop{
+    height: 60vh;
+    width: auto;
+}
+.cards.active .cardTop img{
+    height: 60vh;
+    width: auto;
+}
+.cards.active .cardBot{
+    height: 20vh;
+    width: auto;
+}
+.cards.active .cardBot img{
+    height: 60vh;
+    width: auto;
+}
+.cardTop{
+    height: 30vh;
+    width: auto;
+}
+.cardTop img{
+    height: 30vh;
+    width: auto;
+    object-fit: cover;
+    
+}
+.cardBot{
+    height: 25vh;
+    width: auto;
+    overflow: hidden;
+}
+.cardBot img{
+    height: 30vh;
+    width: auto;
+    object-fit: cover;
+    transform: rotateX(180deg);
+    opacity: 0.2;
+} 
+
+
+@media only screen and (max-width: 1000px){
+    .cards{
+        cursor: pointer;
+        height: 30vh;
+        width: auto;
+        display: none;
+    }
+    .cards.left-active{
+        display: block;
+    }
+    .cards.right-active{
+        display: block;
+    }
+    .cards.active{
+        display: block;
+        position: relative;
+        height: 40vh;
+        width: auto;
+        transition: 5s all;
+        transform: rotateY(360deg) ;
+    }
+    .cards.active .cardTop{
+        height: 30vh;
+        width: auto;
+    }
+    .cards.active .cardTop img{
+        height: 30vh;
+        width: auto;
+    }
+    .cards.active .cardBot{
+        height: 10vh;
+        width: auto;
+    }
+    .cards.active .cardBot img{
+        height: 30vh;
+        width: auto;
+    }
+    .cardTop{
+        height: 15vh;
+        width: auto;
+    }
+    .cardTop img{
+        height: 15vh;
+        width: auto;
+        object-fit: cover;
+        
+    }
+    .cardBot{
+        height: 12vh;
+        width: auto;
+        overflow: hidden;
+    }
+    .cardBot img{
+        height: 15vh;
+        width: auto;
+        object-fit: cover;
+        transform: rotateX(180deg);
+        opacity: 0.2;
+    } 
+}
+@media only screen and (max-width: 600px){
+    .cards{
+        cursor: pointer;
+        height: 20vh;
+        width: auto;
+        display: none;
+    }
+    .cards.left-active{
+        display: block;
+    }
+    .cards.right-active{
+        display: block;
+    }
+    .cards.active{
+        display: block;
+        position: relative;
+        height: 27vh;
+        width: auto;
+        transition: 5s all;
+        transform: rotateY(360deg) ;
+    }
+    .cards.active .cardTop{
+        height: 20vh;
+        width: auto;
+    }
+    .cards.active .cardTop img{
+        height: 20vh;
+        width: auto;
+    }
+    .cards.active .cardBot{
+        height: 6.6vh;
+        width: auto;
+    }
+    .cards.active .cardBot img{
+        height: 20vh;
+        width: auto;
+    }
+    .cardTop{
+        height: 10vh;
+        width: auto;
+    }
+    .cardTop img{
+        height: 10vh;
+        width: auto;
+        object-fit: cover;
+        
+    }
+    .cardBot{
+        height: 8vh;
+        width: auto;
+        overflow: hidden;
+    }
+    .cardBot img{
+        height: 10vh;
+        width: auto;
+        object-fit: cover;
+        transform: rotateX(180deg);
+        opacity: 0.2;
+    } 
+}

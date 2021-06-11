@@ -1,0 +1,56 @@
+.detail_left{
+    margin-left: 10px;
+    font-family: "Lucida Sans Unicode", Courier, monospace;
+}
+.detail_left h2{
+    font-size: 32px;
+    font-weight: 300;
+    color: #333333;
+}
+.detail_left h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #EFA697;
+    margin-top: 10px;
+    font-family: "Lucida Sans Unicode", Courier, monospace;
+}
+.detail_left p{
+    color: #666666;
+    font-size: 15px;
+    margin: 20px 30px 20px 0;
+    line-height: 1.9em;
+    font-family: "Lucida Sans Unicode", Courier, monospace;
+} 
+.detail_right img{
+    width: 100%;
+}
+.underAdd{
+    color: #333333;
+}
+
+.avt-name{
+    display: flex;
+    align-items: center;
+}
+.avt-name h4 small{
+    font-size: 16px;
+}
+.btn-rt{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 1em;
+}
+.MuiRating-label{
+    margin-bottom: 0 !important;
+}
+.detail_left input::-webkit-outer-spin-button,
+.detail_left input::-webkit-inner-spin-button {
+    -webkit-appearance: push-button;
+    margin: 0;
+}
+.detail_left input[type="number"] {
+    -moz-appearance: textfield;
+    text-align: center;
+}
+

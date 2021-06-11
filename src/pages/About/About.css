@@ -1,0 +1,114 @@
+.commitment{
+    font-family: Rubik, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 770;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #333333;
+    border-color: #333333;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.commitment_content{
+    font-family: Rubik, Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    text-transform: none;
+    line-height: 1.5em;
+    color: #504e4e;
+}
+.cardAbout h2{
+    font-family: Rubik, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #333333;
+    border-color: #333333;
+    margin-bottom: 25px;
+}
+.cardAbout img{
+    width: 100%;
+    border-radius: 3px;
+}
+.cardAbout p{
+    font-family: Rubik, Helvetica, Arial, sans-serif;
+    padding-top: 0.7em;
+    padding-bottom: 1.3em;
+    font-size: 15px;
+    color: #6d6f73;
+    margin-top: 40px;
+}
+.cardAbout a{
+    text-decoration: none !important;
+    color: #666666 !important;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    border-bottom: 1px solid #222;
+    margin-bottom: 20px;
+}
+.member img{
+    width: 100%;
+    border-radius: 3px;
+}
+.member ul{
+    list-style: none;
+    position: absolute;
+    top:50%;
+    display: none;
+}
+.bao_chu_anh:hover ul{
+    display: block;
+}
+.bao_chu_anh:hover{
+    opacity: 0.85;
+}
+.member li{
+    display: inline-block;
+    margin-right: 12px;
+    border-radius: 250px;
+    background: rgba(0,0,0,0.5);
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+.member i{
+    color: #ffffff;
+}
+.member h4{
+    margin-top: 20px;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 500;
+}
+.member p{
+    padding-top: 0.4em;
+    padding-bottom: 1.3em;
+    font-size: 15px;
+    color: #6d6f73;
+    margin-top: 20px;
+}
+.major{
+    font-family: Rubik, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #999999;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.quality{
+    font-size: 24px;
+    font-weight: 400;
+    color: #333333;
+    text-transform: none;
+    letter-spacing: -1px;
+    line-height: 1.5em;
+    padding-top: 22px;
+}
